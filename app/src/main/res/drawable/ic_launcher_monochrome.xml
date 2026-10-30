@@ -1,0 +1,8 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="23%">
+    <bitmap
+        android:src="@drawable/ds_ic_clearview_logo_monochrome"
+        android:gravity="fill"
+        android:filter="true"
+        android:tileMode="disabled" />
+</inset>

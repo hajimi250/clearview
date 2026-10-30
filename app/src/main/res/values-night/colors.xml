@@ -1,0 +1,5 @@
+<resources>
+    <!-- QQ 深色板：窗口底 = 页面底 #171717 -->
+    <color name="brand_splash_background">#171717</color>
+    <bool name="light_system_bars">false</bool>
+</resources>

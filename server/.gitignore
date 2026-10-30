@@ -1,0 +1,10 @@
+data/
+models/
+__pycache__/
+*.pyc
+.venv/
+venv/
+result.json
+assistant.env
+demo-source.jpg
+demo-mask.png

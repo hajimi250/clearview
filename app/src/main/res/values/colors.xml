@@ -1,0 +1,8 @@
+<resources>
+    <!-- QQ 天蓝板：启动页/窗口底 = 页面底 #F2F3F5，图标主色 = 主蓝 #12B7F5 -->
+    <color name="brand_splash_background">#F2F3F5</color>
+    <bool name="light_system_bars">true</bool>
+    <color name="brand_icon_bg">#E4F6FF</color>
+    <color name="brand_icon_fg">#12B7F5</color>
+    <color name="brand_icon_mono">#111111</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.ClearView.Splash" parent="Theme.ClearView">
+        <item name="android:windowSplashScreenBackground">@color/brand_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_brand</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/brand_splash_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+    </style>
+</resources>

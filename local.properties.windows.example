@@ -1,0 +1,2 @@
+## Copy to local.properties when using Android Studio on Windows.
+sdk.dir=C\:\\Users\\yyj\\AppData\\Local\\Android\\Sdk

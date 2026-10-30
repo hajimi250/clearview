@@ -1,0 +1,14 @@
+# 澄影 ClearView 院内推理服务依赖
+# Python 3.11+（推荐 3.12）。torch/torchvision 需按 GPU 版本单独安装，
+# 例如 CUDA 12.6: python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# nnU-Net v2 要求 torch>=2.1.2 且不等于 2.9.*。
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+torchvision>=0.19
+safetensors>=0.4
+transformers>=4.50,<5
+# BUSI 分割权重为 nnU-Net v2（会带入 scikit-image、SimpleITK 等依赖）。
+nnunetv2==2.8.1

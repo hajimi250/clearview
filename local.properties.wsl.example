@@ -1,0 +1,2 @@
+## Copy to local.properties only for pure Linux / WSL builds with a dedicated Linux SDK.
+sdk.dir=/home/yyj/Android/Sdk
